@@ -1,0 +1,83 @@
+====================
+Winning a Game
+====================
+
+Ready to start game? (y/n):y
+Two player? (y/n): n
+_ _ _ _ _ _ 
+Incorrect Guesses: 
+
+Letter to guess: f
+b'\x01f'
+f _ _ _ _ _ 
+Incorrect Guesses: 
+
+Letter to guess: e
+b'\x01e'
+f e _ _ _ e 
+Incorrect Guesses: 
+
+Letter to guess: d
+b'\x01d'
+f e _ _ _ e 
+Incorrect Guesses: d 
+
+Letter to guess: l
+b'\x01l'
+f e l _ _ e 
+Incorrect Guesses: d 
+
+Letter to guess: i
+b'\x01i'
+f e l i _ e 
+Incorrect Guesses: d 
+
+Letter to guess: n
+b'\x01n'
+You win!
+
+====================
+Losing a Game
+====================
+
+Ready to start game? (y/n):y
+Two player? (y/n): n
+_ _ _ _ _ _ 
+Incorrect Guesses: 
+
+Letter to guess: a
+b'\x01a'
+_ a _ a _ _ 
+Incorrect Guesses: 
+
+Letter to guess: c
+b'\x01c'
+_ a _ a _ _ 
+Incorrect Guesses: c 
+
+Letter to guess: v
+b'\x01v'
+_ a _ a _ _ 
+Incorrect Guesses: c v 
+
+Letter to guess: x
+b'\x01x'
+_ a _ a _ _ 
+Incorrect Guesses: c v x 
+
+Letter to guess: c
+Error! Letter c has been guessed before, please guess another letter.
+Letter to guess: z
+b'\x01z'
+_ a _ a _ _ 
+Incorrect Guesses: c v x z 
+
+Letter to guess: p
+b'\x01p'
+_ a _ a _ _ 
+Incorrect Guesses: c v x z p 
+
+Letter to guess: q
+b'\x01q'
+You lose :(
+Game Over!
