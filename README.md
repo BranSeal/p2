@@ -1,4 +1,6 @@
 # README
+I wasn't able to get multiplayer to work in time, but singleplayer should be working fine.
+Singleplayer ran correctly on GT shuttle server while I was using my machine.
 
 ## To connect to a shuttle server, enter in shell:
     $ ssh [student-id]@cc-shuttle1.cc.gatech.edu
